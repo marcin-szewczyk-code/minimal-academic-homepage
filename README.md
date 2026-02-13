@@ -1,13 +1,14 @@
 # minimal-academic-homepage
 
 Minimalist academic homepage implemented in pure HTML 4.01 and CSS 2.1.
+
 Deliberately simple, fully static, and framework-free.
 
 ## Features
-- Single-page static layout with internal anchor navigation (Home / Publications / Monographs / Patents / Conferences)
+- Single-page static layout with internal anchor navigation (Home / Publications / ... )
 - Fixed top navigation bar
 - CSS 2.1-friendly conservative styling
-- easy to modify and extend manually
+- Easy to modify and extend manually
 
 ## Structure
 - `index.html` – main page
