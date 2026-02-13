@@ -6,7 +6,7 @@ Deliberately simple, fully static, and framework-free.
 
 ## Features
 - Single-page static layout with internal anchor navigation (Home / Publications / ... )
-- Fixed top navigation bar
+- Fixed top navigation bar followed by basic info with QR code
 - CSS 2.1-friendly conservative styling
 - Easy to modify and extend manually
 
