@@ -1,5 +1,9 @@
 # minimal-academic-homepage
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![HTML 4.01](https://img.shields.io/badge/HTML-4.01-blue.svg)
+![CSS 2.1](https://img.shields.io/badge/CSS-2.1-blueviolet.svg)
+
 Minimalist academic homepage implemented in pure HTML 4.01 and CSS 2.1.
 
 Deliberately simple, fully static, and framework-free.
@@ -33,7 +37,9 @@ This repository contains a cleaned and reusable template version of that layout.
 
 ## Preview
 
+<img src="assets/screenshot.png" width="500" alt="Homepage screenshot">
 ![Homepage screenshot](assets/screenshot.png)
+</img>
 
 ## License
 
