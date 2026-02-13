@@ -1,0 +1,240 @@
+/* =====================================================
+   CONSERVATIVE CSS (CSS 2.1-friendly)
+   ===================================================== */
+
+
+/* =====================================================
+   HEADER LAYOUT: tabela nagłówka i wyrównanie komórek
+   ===================================================== */
+
+td.nav-cell {
+  text-align: left;
+}
+
+/* =====================================================
+   INFO BLOCK: układ tabeli „More information” + kolumna QR
+   ===================================================== */
+
+table.info-block {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td.info-text {
+  vertical-align: top;
+}
+
+td.info-qr {
+  width: 290px;        /* większa kolumna = QR dalej od prawej */
+  vertical-align: top;
+  text-align: left;
+  padding-left: 40px;  /* odstęp od tekstu */
+}
+
+.qr-code {
+  width: 240px;          /* rozmiar QR */
+  height: auto;
+  display: block;
+}
+
+
+/* =====================================================
+   GLOBAL: typografia, kolory i szerokość strony
+   ===================================================== */
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #111827;
+  background-color: #f5f6f8;
+
+  margin: 0 auto;
+  width: 920px;
+  padding: 0;
+}
+
+
+/* =====================================================
+   MAIN CONTENT: kontener głównej treści
+   ===================================================== */
+
+
+#bodyContent {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+/* tabela kończąca sekcję – nie dodawaj dodatkowego odstępu */
+#bodyContent table.info-block { margin-bottom: 0; }
+
+/* sekcje w bodyContent kończą się listą – nie dodawaj dodatkowego odstępu */
+#bodyContent ol,
+#bodyContent ul {
+  margin-bottom: 0;
+}
+
+
+/* =====================================================
+   FIXED HEADER CONTAINER: przyklejony pasek nagłówka
+   ===================================================== */
+
+.header-cont {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 920px;
+  margin-left: -460px; /* half of 920px */
+
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 100;
+
+  border-left: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+
+  box-sizing: border-box;
+}
+
+
+/* =====================================================
+   HEADER TABLE: szerokość i padding tabeli w nagłówku
+   ===================================================== */
+
+.table-header {
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+/* =====================================================
+   HEADER NAVIGATION: linki tekstowe (menu główne)
+   ===================================================== */
+
+a.header-navigation {
+  font-size: 0.8em;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  background-color: transparent;
+}
+
+a.header-navigation:hover {
+  color: #323232;
+}
+
+
+/* =====================================================
+   HEADER NAVIGATION: linki-ikony (social / profile)
+   ===================================================== */
+
+a.header-navigation-icon {
+  background-color: transparent;
+}
+
+a.header-navigation-icon:hover {
+  background-color: #ffcc00;
+}
+
+span.font-navigation {
+  color: #aaaaaa;
+}
+
+
+/* =====================================================
+   SECTION SEPARATORS: poziome linie między sekcjami
+   ===================================================== */
+
+p.hr {
+  margin: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+/* =====================================================
+   TYPOGRAPHY: nagłówki i akapity
+   ===================================================== */
+
+h2, h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.33;
+  margin: 1.2em 0 0.4em;
+  color: #000000;
+}
+
+p {
+  margin: 0.75em 0;
+}
+
+
+/* =====================================================
+   LISTS: listy punktowane i numerowane
+   ===================================================== */
+
+ul {
+  margin: 0.5em 0 1em 1.2em;
+}
+
+ol {
+  margin: 0.5em 0 1em 1.8em;
+  padding: 0;
+}
+
+
+/* =====================================================
+   PUBLICATIONS LIST ITEMS: wygląd pozycji i efekt hover
+   ===================================================== */
+
+li.i {
+  padding: 10px 8px;
+}
+
+li.i:hover {
+  background-color: #ebebff;
+}
+
+
+/* =====================================================
+   GLOBAL LINKS: żółte linki w treści strony
+   ===================================================== */
+
+a:link {
+  background-color: #ffffcc;
+  color: #cc0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: #ffffcc;
+  color: #cc0000;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ffcc00;
+  color: #cc0000;
+}
+
+/* HEADER MENU LINKS – override global yellow */
+.header-cont a:link,
+.header-cont a:visited {
+  color: #aaaaaa;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+.header-cont a:hover {
+  color: #666666;
+  background-color: transparent;
+}
