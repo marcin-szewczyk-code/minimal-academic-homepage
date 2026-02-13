@@ -37,9 +37,7 @@ This repository contains a cleaned and reusable template version of that layout.
 
 ## Preview
 
-<img src="assets/screenshot.png" width="500" alt="Homepage screenshot">
 ![Homepage screenshot](assets/screenshot.png)
-</img>
 
 ## License
 
