@@ -15,12 +15,13 @@ Deliberately simple, fully static, and framework-free.
 - `style.css` – styles
 - `img/` – icons and images
 - `pdf/` – documents
-    - `papers/` – publications (pre-prints)
-    - `patents/` – patents and first filings
+  - `papers/` – publications (pre-prints)
+  - `patents/` – patents and first filings
+- `assets/` – repository assets (e.g., README screenshots)
+
 
 ## Local preview
-Just open `index.html` in a browser.
-Make sure `style.css` is located in the same directory.
+Just open `index.html` in a browser. Make sure `style.css` is located in the same directory.
 
 ## Live example
 
