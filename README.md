@@ -9,23 +9,30 @@ Minimalist academic homepage implemented in pure HTML 4.01 and CSS 2.1.
 Deliberately simple, fully static, and framework-free.
 
 ## Features
-- Single-page static layout with internal anchor navigation (Home / Publications / ... )
+- Single-page static layout with internal anchor navigation (Home / Publications / etc.)
 - Fixed top navigation bar followed by basic info with QR code
 - CSS 2.1-friendly conservative styling
 - Easy to modify and extend manually
 
 ## Structure
-- `index.html` – main page
-- `style.css` – styles
-- `img/` – icons and images
-- `pdf/` – documents
-  - `papers/` – publications (pre-prints)
-  - `patents/` – patents and first filings
-- `assets/` – repository assets (e.g., README screenshots)
 
+```txt
+repo-root/
+├── src/
+│   ├── index.html        # main page
+│   ├── style.css         # styles
+│   ├── img/              # icons and images
+│   ├── pdf/
+│   │   ├── papers/       # publications (pre-prints)
+│   │   └── patents/      # patents and first filings
+│   └── (other files if needed)
+├── assets/               # repository assets (e.g., README, screenshots)
+├── README.md
+└── LICENSE
+```
 
 ## Local preview
-Just open `index.html` in a browser. Make sure `style.css` is located in the same directory.
+Just open `src/index.html` in a browser. Make sure `src/style.css` is located in the same directory.
 
 ## Live example
 
