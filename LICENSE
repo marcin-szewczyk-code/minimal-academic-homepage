@@ -2,5 +2,5 @@ Getting started
 License
 
 
-magick screenshot-raw.png   -resize 300x   -bordercolor white -border 10   -alpha set   \( +clone -background black -shadow 50x6+0+4 \)   +swap -background none -compose over -composite   -strip -quality 92   assets/screenshot.png
+magick screenshot-raw.png   -resize 700x   -bordercolor white -border 10   -alpha set   \( +clone -background black -shadow 40x3+0+2 \)   +swap -background none -compose over -composite   -strip -quality 92   assets/screenshot.png
 
