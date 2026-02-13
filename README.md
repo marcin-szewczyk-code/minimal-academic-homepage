@@ -8,6 +8,8 @@ Minimalist academic homepage implemented in pure HTML 4.01 and CSS 2.1.
 
 Deliberately simple, fully static, and framework-free.
 
+Designed for long-term maintainability, minimal maintenance effort, and minimal external dependencies.
+
 ## Features
 - Single-page static layout with internal anchor navigation (Home / Publications / etc.)
 - Fixed top navigation bar followed by basic info with QR code
@@ -36,7 +38,7 @@ Just open `src/index.html` in a browser. Make sure `src/style.css` is located in
 
 ## Live example
 
-The layout is currently used on my personal academic homepage:
+The layout is currently used on my academic homepage and is provided here as a reusable template.
 
 [https://www.ee.pw.edu.pl/~szewczyk/](https://www.ee.pw.edu.pl/~szewczyk/)
 
